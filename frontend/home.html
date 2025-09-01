@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.map() Example</title>
+    <style>
+      *{
+        background-color: orange!important;
+       margin: 0;
+       padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+                background-color: rgb(33, 197, 66);
+
+      }
+      
+      .card {
+        border: 30px dotted black;
+        padding: 12px;
+        margin-bottom: 10px;
+        margin: 10px 2px 30px 40px;
+        padding: 10px 2px 30px 40px;
+        border-radius: 8px;
+        box-shadow: 10px 10px 60px rgba(33, 32, 32, 0.1);
+        background-color: rgba(22, 117, 98, 0.821);
+      }
+      .name {
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .role {
+        color: gray;
+      }
+      #container {
+
+      }
+      #umar1 {
+        font-size: 20px;
+        color: blue;
+      }
+      .umar{
+       font-size: 64px; 
+       color: red;
+      }
+      .madni {
+        font-size: 14px;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="card umar madni" id="umar1"
+    style="color: black;">Team Members</h1>
+    <div id="container"></div>
+    <!-- const cards = data.map((item) => {
+  return `
+    <div class="card">
+      <div class="name">${item.name}</div>
+      <div class="role">${item.role}</div>
+    </div>
+  `; -->
+    <!-- }); -->
+
+    <div class="card">
+      <img style="width: 300px;"  src="https://images.unsplash.com/photo-1756029095573-3d63ab16a293?q=80&w=1041&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+      <div class="name">Ali</div>
+      <div class="role">AI Engineer</div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>

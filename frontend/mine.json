@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Ali", "role": "Software Engineer" },
+  { "id": 2, "name": "Sara", "role": "Designer" },
+  { "id": 3, "name": "Hamza", "role": "Project Manager" },
+  { "id": 4, "name": "Umar", "role": "Project Manager"},
+  { "id": 5, "name": "Muzammil", "role": "ML Engineer"}
+]
+
